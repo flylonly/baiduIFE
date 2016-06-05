@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>水平垂直居中</title>
+  <style>
+  .container{
+    background-color:#ccc;
+    border-color: #eee;
+    padding: 0;
+    width:400px;
+    height: 200px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left: -200px;
+    margin-top:-100px;
+  }
+  .left-radius{
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom-right-radius:100%;
+    background-color: #fc0;
+  }
+  .right-radius{
+    margin:0;
+    padding: 0;
+    width:50px;
+    height: 50px;
+    border-top-left-radius: 100%;
+    background-color: #fc0;
+    position: absolute;
+    right:0;
+    bottom: 0;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-radius"></div>
+    <div class="right-radius"></div>
+  </div>
+</body>
+</html>
